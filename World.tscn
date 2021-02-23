@@ -10,15 +10,15 @@ points = PoolVector3Array( -1, 1, 1, 1, 1, -1, 1, 1, 1, -1, 1, -1, -1, -1, 1, 1,
 [node name="World" type="Spatial"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1.02796, 0, 0, 0, 1.02796, 0, 0, 0, 1.02796, 0, 0, 0 )
+transform = Transform( 1.02796, 0, 0, 0, 1.02796, 0, 0, 0, 1.02796, 0, 3.84384, 0 )
 
 [node name="Ground" type="StaticBody" parent="."]
 
 [node name="CollisionShape" type="CollisionShape" parent="Ground"]
-transform = Transform( 16.975, 0, 0, 0, 1, 0, 0, 0, 15.6155, 0, -5.30691, 0 )
+transform = Transform( 16.975, 0, 0, 0, 1, 0, 0, 0, 15.615, 0, 0, 0 )
 shape = SubResource( 1 )
 
 [node name="MeshInstance" type="MeshInstance" parent="Ground"]
-transform = Transform( 16.975, 0, 0, 0, 1, 0, 0, 0, 15.6155, 0, -5.30691, 0 )
+transform = Transform( 16.975, 0, 0, 0, 1, 0, 0, 0, 15.6155, 0, 0, 0 )
 mesh = SubResource( 2 )
 material/0 = null
